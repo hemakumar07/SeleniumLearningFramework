@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="11200" started-at="2020-08-19T09:56:19Z" finished-at="2020-08-19T09:56:30Z">
+    <groups>
+      <group name="smoke">
+        <method signature="GoogleTest.test1()[pri:2, instance:Test.NewTestNG.GoogleTest@fb434]" name="test1" class="Test.NewTestNG.GoogleTest"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test name="Default test" duration-ms="11200" started-at="2020-08-19T09:56:19Z" finished-at="2020-08-19T09:56:30Z">
+      <class name="Test.NewTestNG.GoogleTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:Test.NewTestNG.GoogleTest@fb434]" name="setUp" is-config="true" duration-ms="10375" started-at="2020-08-19T15:26:19Z" finished-at="2020-08-19T15:26:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="test1()[pri:2, instance:Test.NewTestNG.GoogleTest@fb434]" name="test1" duration-ms="35" started-at="2020-08-19T15:26:29Z" finished-at="2020-08-19T15:26:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Test.NewTestNG.GoogleTest@fb434]" name="tearDown" is-config="true" duration-ms="753" started-at="2020-08-19T15:26:29Z" finished-at="2020-08-19T15:26:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Test.NewTestNG.GoogleTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

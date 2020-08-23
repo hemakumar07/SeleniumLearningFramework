@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="none">
+  <parameter name="password" value="67809039900000"/>
+  <parameter name="url" value="https://www.facebook.com"/>
+  <parameter name="username" value="hemakumar1989"/>
+  <test name="Test(failed)" parallel="none">
+    <parameter name="password" value="67809039900000"/>
+    <parameter name="url" value="https://www.facebook.com"/>
+    <parameter name="username" value="hemakumar1989"/>
+    <classes>
+      <class name="Test.NewTestNG.ParametersAnotationUsage">
+        <methods>
+          <include name="login" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- Test.NewTestNG.ParametersAnotationUsage -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
